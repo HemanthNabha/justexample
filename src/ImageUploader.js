@@ -83,17 +83,17 @@ const ImageUploader = () => {
 
   return (
     <div className="container">
-      <h1>UI Element Detectorssssssssss</h1>
+      <h1>UI Element Detectors</h1>
       <div {...getRootProps()} className="dropzone">
         <input {...getInputProps()} />
-        <p>Drag & drop an image here, or click to select an image</p>
+        <p>Drag & drop an image here, or click to select an imagessss</p>
       </div>
 
-      {loading && <p>Loading....</p>}
+      {loading && <p>Loadinggggg....</p>}
 
       {imageUrl && (
         <div>
-          <h3>Uploaded Image</h3>
+          <h4>Uploaded Image</h4>
           <img
             id="image-with-detections"
             src={imageUrl}
