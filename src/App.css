@@ -1,0 +1,22 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  padding: 40px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
