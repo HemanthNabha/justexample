@@ -2,12 +2,14 @@
 import React from 'react';
 import './App.css';
 import ImageUploader from './ImageUploader';
+import MyStore from './MyStore';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ImageUploader />
+        {/* <ImageUploader /> */}
+        <MyStore/>
       </header>
     </div>
   );
