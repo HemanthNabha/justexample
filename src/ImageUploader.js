@@ -82,14 +82,14 @@ const ImageUploader = () => {
   }, [imageUrl, detections]);
 
   return (
-    <div className="container">
-      <h1>UI Element Detectors</h1>
+    <div style ={{backgroundColor:'red'}} className="container">
+      <h1>UI Element Detectorssssssss</h1>
       <div {...getRootProps()} className="dropzone">
         <input {...getInputProps()} />
         <p>Drag & drop an image here, or click to select an imagessss</p>
       </div>
 
-      {loading && <p>Loadinggggg....</p>}
+      {loading && <p>Loadingggggs....</p>}
 
       {imageUrl && (
         <div>
@@ -120,3 +120,4 @@ const ImageUploader = () => {
 };
 
 export default ImageUploader;
+
