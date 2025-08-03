@@ -89,7 +89,7 @@ const HomePage = ({ cart, onAddToCart }) => {
   return (
     <div className="home-page">
       <div className="hero-section">
-        <h1>Welcome to TechStore</h1>
+        <h1>Welcome to AutoDev IQ</h1>
         <p>Discover amazing tech products at great prices!</p>
       </div>
       <div className="products-grid">
