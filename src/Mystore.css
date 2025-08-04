@@ -53,7 +53,7 @@
   }
   
   .cart-link {
-    background: red  !important;
+    background: linear-gradient(135deg, #ee5a24, #ff6b6b)  !important;
     color: white !important;
     font-weight: bold;
   }
@@ -83,7 +83,7 @@
   }
   
   .hero-section p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     opacity: 0.9;
   }
   
